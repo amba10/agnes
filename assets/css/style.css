@@ -1,0 +1,195 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}	
+/* CSS HEX 
+--black: #000000ff;
+--oxford-blue: #14213dff;
+--orange-web: #fca311ff;
+--platinum: #e5e5e5ff;
+--white: #ffffffff;
+
+001b2e: biru;
+ffc49b cokelat
+621708 cokelat tua
+*/
+
+body {
+	/*background-color: #621708;*/
+	/*background-color: #ffc49b*//*#e5e5e5ff*/;
+}
+
+main {
+	/*background-color: #14213dff;*/
+
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	height: 50px;
+}
+
+ul {
+	display: flex;
+	justify-content: Space-between;
+	flex:100%;
+	max-width: 300px;
+	padding: 20px 40px 20px 10px;
+	
+}
+
+li {
+
+	list-style: none;
+	color: #621708;
+	font-weight: strong;
+}
+
+#home {
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.home {
+	/*display: flex;
+	justify-content: flex-end;*/
+	margin: 0 auto;
+	flex:50%;
+	padding-top: 70px;
+}
+.home h1 {
+	/*background-color: red;*/
+	color: #621708;
+	text-align: right;
+	font-weight: strong; 
+	font-size: 200px;
+
+}
+
+
+
+.sampul {
+	height: 600px;
+	width: 600px;
+}
+
+/*----------------------*/
+
+.container2 {
+	background-color:#621708/*#ffc49b*/;
+padding-bottom: 40px;
+	
+}
+
+#about {
+
+	
+}
+
+.dua {
+	max-width: 1000px;
+	/*border:1px solid black;*/
+	margin:0 auto;
+	padding: 40px;
+	
+	background-color: #F5E8C7;
+	
+
+
+}
+
+
+
+.heading {
+	text-align: center;
+	font-size: 60px;
+	padding-top: 20px;
+	color: #621708;
+}
+
+ol {
+	line-height: 40px;
+	text-align: center;
+}
+
+mark {
+	background-color: #621708;
+	padding: 5px;
+	color: white;
+}
+
+hr {
+	width: 50%;
+	margin: 0 auto;
+	background-color:#621708;
+	margin-bottom: 40px;
+
+}
+
+.about {
+	display: flex;
+	
+	/*justify-content: center;*/
+	align-items: center;
+}
+
+.text {
+	flex:70%;
+	padding-right: 20px;
+	line-height: 15pt;
+}
+
+.card {
+	width: 100px;
+	height: 400px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	flex:30%;
+}
+
+.album{
+	display: flex;
+	justify-content: space-around;
+	
+	
+}
+.grid {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	}
+
+.box {
+
+	width: 30%;
+	margin-bottom: 20px;
+	height: 200px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+}
+
+
+footer {
+	position: fixed;
+	bottom: 0;
+	background-color:#621708;
+	text-align: center;
+	width: 100%;
+	height:50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
